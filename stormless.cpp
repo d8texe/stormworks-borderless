@@ -5,7 +5,7 @@ int main()
 {
     HWND hWin;
 
-    hWin = FindWindow(NULL, L"Stormworks");
+    hWin = FindWindow(NULL, (LPCSTR)"Stormworks");
 
     if(hWin == NULL)
     {
